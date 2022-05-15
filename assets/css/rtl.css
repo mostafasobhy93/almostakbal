@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+
+*:not(i) {
+    font-family: 'Tajawal', sans-serif ;
+}
+html, body {
+	direction: rtl;
+	text-align: right;
+}
+p {
+	font-size: 16px;
+}
+.section-title span::before, .section-title span::after {
+	right: -80px;
+	left: auto;
+}
+.section-title span::after {
+    left: -80px;
+    right: auto;
+}
+
+header nav .links-list > ul .list-item .link {
+	font-weight: bold;
+}
+header nav .links-list > ul .list-item {
+	margin-left: 15px;
+	margin-right: 0;
+}
+header nav .links-list > ul .list-item .link:before, header nav .links-list > ul .list-item .link:after {
+	top: -5px;
+}
+header nav .links-list > ul .list-item:last-child {
+    margin-left: 0;
+}
+header nav .links-list > ul .list-item .link:before {
+    right: -20px;
+	left: auto;
+}
+header nav .links-list > ul .list-item .link:after {
+    left: -20px;
+	right: auto;
+}
+header nav .links-list > ul .list-item .link.active-link:after,
+header nav .links-list > ul .list-item .link:hover:after {
+	left: 0;
+	right: auto;
+}
+header nav .links-list > ul .list-item .link.active-link:before,
+header nav .links-list > ul .list-item .link:hover:before {
+	right: 0;
+	left: auto;
+}
+header nav .links-list > ul .list-item.dropdown .link i {
+	margin-right: 2px;
+	margin-left: 0;
+}
+header nav .links-list > ul .list-item li a{
+	font-size: 1rem;
+}
+header.sticky {
+	right: 0;
+	left: auto;
+}
+.dropdown .droplist {
+	right: 0;
+	left: auto;
+}
+.main-slider .carousel-btn-block .carousel-btn.left-btn {
+    right: 30px;
+	left: auto;
+}
+.main-slider .carousel-btn-block .carousel-btn.right-btn {
+    left: 30px;
+	right: auto;
+}
+.main-slider .banner-slides .slide {
+	direction: rtl;
+}
+.about-section .about-img {
+	margin-left: 20px;
+	margin-right: 0;
+}
+.gallery-section .gallery-item .item-content .overlay .title {
+	right: 20px;
+	left: auto;
+}
+footer .footer-social .social-list li {
+    margin-right: 20px;
+	margin-left: 0;
+}
+footer .footer-social .social-list li:first-child {
+	margin-right: 0;
+}
+
+#scroll-top {
+	left: 17px;
+	right: auto;
+}
+#whatsapp {
+	left: 30px;
+	right: auto;
+}
+.title-part:before {
+	right: 0;
+	left: auto;
+}
+.fa-arrow-left:before {
+    content: "\f061";
+}
+.fa-arrow-right:before {
+    content: "\f060";
+}
+.fa-chevron-right:before {
+    content: "\f053";
+}
+.fa-chevron-left:before {
+    content: "\f054";
+}
+.fa-chevron-circle-right:before {
+    content: "\f137";
+}
+.fa-chevron-circle-left:before {
+    content: "\f138";
+}
+.text-left {
+    text-align: right!important;
+}
+.text-right {
+    text-align: left!important;
+}
+.owl-carousel .owl-stage-outer {
+	direction: ltr;
+}
+
+/* font bold */
+.about-section .icons-row h5, .about-section .text h3, .section-title h2, footer .footer-title h5, .banner-area h2, .title-part, .gallery-section .gallery-item .item-content .overlay .title,
+.contact-page .contact-info h6 {
+	font-weight: bold !important;
+}
+
+
+@media(max-width: 991px) {
+	header nav .lang-btn {
+		margin-right: auto;
+		margin-left: 15px;
+	}
+    header nav .links-list {
+        right: 0;
+		left: auto;
+    }
+	.about-section .about-img {
+		margin-left: 0;
+	}
+}
